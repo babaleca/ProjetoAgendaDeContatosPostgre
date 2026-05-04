@@ -13,7 +13,7 @@ import java.sql.DriverManager;
 public class ConexaoPostgre {
     private static final String URL  = "jdbc:postgresql://localhost:5432/trabalho";
     private static final String USER = "postgres";
-    private static final String PASS = "****";
+    private static final String PASS = "1343";
 
     public static Connection getConexao() throws Exception {
         return DriverManager.getConnection(URL, USER, PASS);
